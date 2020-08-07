@@ -2,16 +2,15 @@ import cv2
 
 # image of a car
 image_file = 'images2.jpg'
-
-# pretrained car classifier
-
+video_file = 'motorbike_dashcam.mp4'
 
 # read image
 img = cv2.imread(image_file)
 
 # get video
-video = cv2.VideoCapture('motorbike_dashcam.mp4')
+video = cv2.VideoCapture(video_file)
 # car  trained modeled xml file
+# pretrained car classifier
 carTracker = 'car_detector.xml'
 # pedestrian trained modeled xml file
 pedestrianTracker = 'pedesterian_detector.xml'
