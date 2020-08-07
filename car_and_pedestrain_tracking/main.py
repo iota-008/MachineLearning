@@ -1,5 +1,4 @@
 import cv2
-
 # image of a car
 image_file = 'images2.jpg'
 video_file = 'motorbike_dashcam.mp4'
